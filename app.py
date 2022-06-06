@@ -335,6 +335,11 @@ def create_app(test_config=None):
               abort(422)
 
 
+  @app.route('/')
+  def index():
+      return 'Welcome to the course catalog system'
+
+
   '''
   Error handlers on expected errors
   '''
