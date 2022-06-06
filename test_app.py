@@ -32,7 +32,7 @@ class TestCase(unittest.TestCase):
         self.app = create_app()
         self.client = self.app.test_client
         # change this line to connect to your local postgresql database
-        self.database_path = os.environ['DATABASE_URL']
+        self.database_path = os.environ['TEST_DATABASE_URL']
         if self.database_path.startswith("postgres://"):
             self.database_path = self.database_path.replace("postgres://", "postgresql://", 1)
 
