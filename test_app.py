@@ -6,15 +6,13 @@ from flask_sqlalchemy import SQLAlchemy
 from app import create_app
 from models import setup_db, Subject, Instructor, Course
 
-# used for local running with .env file
-from dotenv import load_dotenv
-load_dotenv()
-
 
 '''
 Please update the access tokens as environment variables accordingly
+
 - INSTRUCTOR_TOKEN  access token for role instructor
 - DIRECTOR_TOKEN    access token for role director
+
 '''
 
 instructor_token = os.environ['INSTRUCTOR_TOKEN']
