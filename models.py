@@ -2,9 +2,9 @@ import os
 from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime
 
-# for local tests
-from dotenv import load_dotenv
-load_dotenv()
+# # for local tests
+# from dotenv import load_dotenv
+# load_dotenv()
 
 database_path = os.environ['DATABASE_URL']
 if database_path.startswith("postgres://"):
