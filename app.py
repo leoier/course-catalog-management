@@ -337,7 +337,8 @@ def create_app(test_config=None):
 
   @app.route('/')
   def index():
-      return 'Welcome to the course catalog system'
+      return 'Welcome to the University Course Catalog Management System!' +
+        'The API references can be found at https://github.com/leoier/udacity-full-stack-capstone/blob/main/README.md'
 
 
   '''
