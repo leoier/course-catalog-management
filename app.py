@@ -337,9 +337,9 @@ def create_app(test_config=None):
 
   @app.route('/')
   def index():
-      return 'Welcome to the University Course Catalog Management System!' +
-        'The API references can be found at https://github.com/leoier/udacity-full-stack-capstone/blob/main/README.md'
-
+      welcome_msg = 'Welcome to the University Course Catalog System'
+      welcome_msg += 'To see the API references, please visit https://github.com/leoier/udacity-full-stack-capstone/blob/main/README.md'
+      return welcome_msg
 
   '''
   Error handlers on expected errors
