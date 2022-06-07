@@ -11,7 +11,7 @@ Role-based access control (RBAC) is implemented to control access of different r
 2. Instructors: Edit the courses, in addiction to all access of public and students.
 3. Department Director: Add, edit, delete instructors; add, edit, approve, delete courses, in addiction to all access of instructors.
 
-Access Token is issued through this [link](https://dev--s9qtz0w.us.auth0.com/authorize?response_type=token&audience=course&client_id=4TcuieFIWK3q8sKE5zPqswmyTN0SW3U4&redirect_uri=https://course-catalog-leoier.herokuapp.com) by logging in the responding account of a specific role. No access token is required for the public and students.
+Access Token is issued through this [link](https://dev--s9qtz0w.us.auth0.com/authorize?response_type=token&audience=course&client_id=4TcuieFIWK3q8sKE5zPqswmyTN0SW3U4&redirect_uri=https://course-catalog-leoier.herokuapp.com) by logging in the account of a specific role. No access token is required for the public and students.
 
 ## Preparations
 
