@@ -1,6 +1,6 @@
 # University Course Catalog Management System
 
-This is the backend of a simple university course catalog, which enables users to retrieve information of the courses, instructors and subjects in the course catalog database. And provide management access to manage courses and instructors to different roles. The API of the system is current deployed on [https://course-catalog-leoier.herokuapp.com/](https://course-catalog-leoier.herokuapp.com/.).
+This is the backend of a simple university course catalog, which enables users to retrieve information of the courses, instructors and subjects in the course catalog database. And provide management access to manage courses and instructors to different roles. The API of the system is currently hosted on [https://course-catalog-leoier.herokuapp.com](https://course-catalog-leoier.herokuapp.com).
 
 
 ## Role-based access control
@@ -115,7 +115,7 @@ Using the course catalog API you can:
 
 The API works with standard HTTP requests, accepts json formatted request bodies, and returns json formatted responses. And authentication is done by including a Bearer token in the request header.
 
-The base URL of the API is [https://course-catalog-leoier.herokuapp.com/](https://course-catalog-leoier.herokuapp.com/).
+The base URL of the API is [https://course-catalog-leoier.herokuapp.com](https://course-catalog-leoier.herokuapp.com).
 
 ### Errors
 
