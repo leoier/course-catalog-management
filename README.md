@@ -1,6 +1,6 @@
 # University Course Catalog Management System
 
-This is the backend of a simple university course catalog, which enables users to retrieve information of the courses, instructors and subjects in the course catalog database. And provide management access to manage courses and instructors to different roles.
+This is the backend of a simple university course catalog, which enables users to retrieve information of the courses, instructors and subjects in the course catalog database. And provide management access to manage courses and instructors to different roles. The API of the system is current deployed on [https://course-catalog-leoier.herokuapp.com/](https://course-catalog-leoier.herokuapp.com/.).
 
 
 ## Role-based access control
